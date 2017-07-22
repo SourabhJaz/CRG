@@ -1,0 +1,5 @@
+create -db J:/Projects/QT/ChangeReport/CRG/myproj.udb -languages java add @J:/Projects/QT/ChangeReport/CRG/myfiles.lis
+settings -JavaClassPathsAdd J:/Projects/QT/ChangeReport/CRG/Java/src-jdk.zip J:/Projects/QT/ChangeReport/CRG/myproj.udb
+settings -JavaClassPathsAdd J:/Projects/QT/ChangeReport/CRG/Java/rt.jar J:/Projects/QT/ChangeReport/CRG/myproj.udb
+-quiet analyze J:/Projects/QT/ChangeReport/CRG/myproj.udb
+uperl J:/Projects/QT/ChangeReport/CRG/finalperl.pl -db J:/Projects/QT/ChangeReport/CRG/myproj.udb -r J:/Projects/QT/ChangeReport/CRG/results.csv -f J:/Projects/QT/ChangeReport/CRG/anb.csv
