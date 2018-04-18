@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>nsit_sm.jpg</file>
+        <file>cdck.png</file>
+        <file>cdcn.png</file>
+    </qresource>
+</RCC>
